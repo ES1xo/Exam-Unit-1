@@ -1,17 +1,34 @@
+int consecutiveFalse = 0;
+
+
+
 while (!AtGoal())
 {
     if (Peek());
   {
     Move();
+    consecutiveFalse = 0;
   }
 
     else
 
   {
+    consecutiveFalse++; 
+    
+    if (consecutiveFalse >= 2) 
+    {
         Turn();
-  }
-}
+        Turn();
+    }
 
+    else 
+    { 
+        Turn();
+    }
+  }    
+  
+  
+}
 
 #region Basic functions
 // These functions are just her to make your intelisense work. 
