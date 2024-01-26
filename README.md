@@ -1,5 +1,5 @@
 # Exam Unit 1
- For this exam, we were given 5 tasks with the same basis of fucntions, but with different problems. 
+ For this exam, we were given 5 tasks with the same basis of fucntions, but with different problems. The core functions remained the same, but other methods were needed to solve the different mazes and aoid being stuck in a loop. I spent a lot of time trying to figure out the different mazes and what was different, but ended up trying to create a solution that could be used for almost all of them, and tried to keep it simple.
 
 **Task 1**
 
